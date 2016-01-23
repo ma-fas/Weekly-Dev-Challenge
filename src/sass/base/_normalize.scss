@@ -1,0 +1,38 @@
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+	border: 0;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+/* Body styles */
+
+body {
+	font-family: $main_slab;
+	color: $text;
+	background-image: url('../img/bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-size: 100%;
+}
+
+input,
+select,
+textarea,
+button,
+label {
+	font-family: $main_slab;
+	font-size: 1em;
+}
+
+

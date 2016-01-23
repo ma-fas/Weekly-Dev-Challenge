@@ -1,0 +1,60 @@
+/* BUTTONS */
+
+.left-side {
+	float: left;
+}
+
+.right-side {
+	float: right;
+}
+
+.btn {
+	font-size: 1.45em;
+	@include heading;
+	height: 40px;
+	line-height: 30px;
+	border-radius: 3px;
+	border: 1px solid $btn_border;
+
+	&:disabled {
+		opacity: 0.6;
+	}
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.btn-action {
+	background-color: $primary;
+	box-shadow: inset 0px 20px 90px -50px $shadow;
+	&:hover {
+		box-shadow: inset 0px -20px 90px -50px $shadow;
+	}
+}
+
+.btn:disabled.btn-action:hover  {
+		box-shadow: inset 0px 20px 90px -50px $shadow;
+	}
+
+.btn-refuse {
+	background-color: $secondary;
+	box-shadow: inset 0px 20px 90px -50px $light;
+
+	&:hover {
+		box-shadow: inset 0px -20px 90px -50px $light;
+	}
+}
+
+.btn-lg {
+	width: 100%;
+}
+
+.btn-sm {
+	width: 43%;
+	height: 40px;
+	font-size: 1.3em;
+}
+
+
+

@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Free Webform | masteralb creative</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="header">
+		<div class="logo-wrap">
+			<div class="logo"></div>
+			<div class="company-name"></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="column">
+			<div class="form">
+				<h1>Register Form</h1>
+				<div class="form-container">
+					<form id="form-register">
+						<div class="input-group username">
+							<div class="icon">
+							</div>
+							<div class="input">
+								<input type="text" name="username" placeholder="Username">
+							</div>
+						</div>
+						<div class="input-group password">
+							<div class="icon">
+							</div>
+							<div class="input">
+								<input type="password" name="password" placeholder="Password">
+							</div>
+						</div>
+						<div class="input-group password">
+							<div class="icon">
+							</div>
+							<div class="input">
+								<input type="password" name="confirm-pass" placeholder="Confirm Password">
+							</div>
+						</div>
+						<div class="input-group email">
+							<div class="icon">
+							</div>
+							<div class="input">
+								<input type="email" name="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="input-group location">
+							<div class="icon">
+							</div>
+							<div class="input select">
+								<select name="location" id="location">
+									<option value disabled selected class="first">Your Location</option>
+									<option value="ES">Hiszpania</option>
+									<option value="DE">Niemcy</option>
+									<option value="PL">Polska</option>
+									<option value="GB">Wielka Brytania</option>
+								</select>
+							</div>
+						</div>
+						<div class="input-check">
+							<input type="checkbox" id="terms" name="terms" value="terms" checked>
+							<label for="terms">
+								<span></span>
+								I have read and accept the terms of use.
+							</label>
+						</div>
+						<button class="btn btn-lg btn-action" type="submit" form="form-register">Sign up</button>
+					</form>
+				</div>
+			</div>
+			<div class="form">
+				<h1>Send Email</h1>
+				<div class="form-container">
+					<form id="form-email">
+						<div class="input-group username">
+							<div class="icon">
+							</div>
+							<div class="input">
+								<input type="text" name="username" placeholder="Username">
+							</div>
+						</div>
+						<div class="input-group email">
+							<div class="icon">
+							</div>
+							<div class="input">
+								<input type="email" name="email" placeholder="Email">
+							</div>
+						</div>
+						<textarea name="msg" id="msg" form="form-email" placeholder="Type your message here..."></textarea>
+						<div class="input-check">
+							<input type="checkbox" id="email-copy" name="email-copy" value="email-copy" checked>
+							<label for="email-copy">
+								<span></span>
+								Send a copy to my Email.
+							</label>
+						</div>
+						<button class="btn btn-lg btn-action" type="submit" form="form-signin">Sign In</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="column">
+			<div class="form">
+				<h1>Sign In Form</h1>
+				<div class="form-container">
+					<form id="form-signin" class="clearfix">
+						<div class="input-group username">
+							<div class="icon">
+							</div>
+							<div class="input">
+								<input type="text" name="username" placeholder="Username">
+							</div>
+						</div>
+						<div class="input-group password">
+							<div class="icon">
+							</div>
+							<div class="input">
+								<input type="password" name="password" placeholder="Password">
+							</div>
+						</div>
+						<div class="input-check left-side">
+							<input type="checkbox" id="remember" name="remember" value="remember" checked>
+							<label for="remember">
+								<span></span>
+								Remember me
+							</label>
+						</div>
+						<button class="btn btn-sm btn-action right-side" type="submit" form="form-signin">Sign In</button>
+					</form>
+				</div>
+			</div>
+
+			<div class="form">
+				<h1>Recover Form</h1>
+				<div class="form-container">
+					<form id="form-recover" class="clearfix">
+						<div class="input-group email">
+							<div class="icon">
+							</div>
+							<div class="input">
+								<input type="email" name="email" placeholder="Enter your Email">
+							</div>
+						</div>
+						<div class="input-group phone">
+							<div class="icon">
+							</div>
+							<div class="input">
+								<input type="tel" name="phone" placeholder="Enter your Phone number">
+							</div>
+						</div>
+						<button class="btn btn-sm btn-action left-side" type="submit" form="form-recover">Send</button>
+						<button class="btn btn-sm btn-action right-side" type="submit" form="form-recover" disabled>Done</button>
+					</form>
+				</div>
+			</div>
+			
+			<div class="form">
+				<h1>Subscribe Form</h1>
+				<div class="form-container">
+					<form id="form-subscribe" class="clearfix">
+						<div class="input-group email">
+							<div class="icon">
+							</div>
+							<div class="input">
+								<input type="email" name="email" placeholder="Enter your Email">
+							</div>
+						</div>
+						<button class="btn btn-sm btn-action left-side" type="submit" form="form-subscribe">Subscribe</button>
+						<button class="btn btn-sm btn-refuse right-side" type="submit" form="form-subscribe">No, Thanks</button>
+					</form>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="logo-wrap">
+					<div class="logo"></div>
+					<div class="company-name"></div>
+				</div>
+				<div class="company-web "></div>
+			</div>
+		</div>
+	</div>	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
